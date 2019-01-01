@@ -1,0 +1,80 @@
+body {
+    background: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+.scene {
+    float: left;
+    background: #000;
+    width: 100%;
+    height: 500px;
+}
+
+.grass {
+    float: left;
+    background: green;
+    width:100%;
+    height: 100px;
+}
+
+.road {
+    float: left;
+    background: #cccccc;
+    width: 100%;
+    height: 300px;
+}
+
+.ai {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: #fff;
+    margin-top:50px;
+}
+
+.wall {
+    position: absolute;
+    width: 50px;
+    height:100px;
+    background: red;
+    right: 0px;
+}
+
+.sensor_1, .sensor_2, .sensor_3  {
+    visibility: hidden;
+    position: relative;
+    background: white;
+    opacity: 0.5;
+    width:50px;
+    height:50px;
+    text-align: center;
+}
+
+.sensor_1 {
+    top:-50px;
+    left:50px;
+}
+
+.sensor_2 {
+    top:-50px;
+    left:100px;
+    width:500px !important;
+}
+
+.sensor_3 {
+    top:-50px;
+    left:50px;
+}
+
+.debugArea {
+    width: 100%;
+    background: black;
+    float:left;
+    height:100%;
+}
+
+.debugTextAreaClass {
+    width: 400px;
+    height: 150px;
+}
